@@ -1,1 +1,6 @@
 # File-Sharing-Application
+The project “Share Studio: A File Sharing Application” is a Python-based desktop application designed to enable seamless file transfer between two computers within the same local network. The application combines the power of socket programming for network communication and Tkinter for creating an intuitive graphical user interface (GUI). It allows users to easily send and receive files without relying on third-party software or internet connectivity.
+
+The sender can select any file from their system and transmit it to the receiver through a simple and secure connection established over TCP sockets. On the receiver’s side, the application allows the user to input the sender’s ID and save the incoming file locally. The use of Python’s built-in modules such as socket, os, and tkinter, along with the Pillow (PIL) library for image handling, makes the project lightweight, efficient, and platform-independent.
+
+This project demonstrates the practical implementation of client-server communication, file handling, and GUI development in Python. It aims to provide a simple yet effective way to transfer files locally, making it a valuable learning project for understanding real-world networking concepts.
